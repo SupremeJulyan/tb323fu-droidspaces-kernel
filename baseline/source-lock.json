@@ -7,5 +7,10 @@
   "clang_build": "12833971",
   "clang_version": "19.0.1",
   "clang_llvm_commit": "b3a530ec6537146650e42be89f1089e9a3588460",
-  "status": "Source commit resolved; build manifest, toolchain archive and module ABI validation pending"
+  "rust_version": "1.82.0-dev (f6e511eec 2024-10-15)",
+  "rust_android_build": "linux-12909517",
+  "bindgen_version": "0.69.5",
+  "gendwarfksyms_stable": true,
+  "pahole_version_used": "1.32",
+  "status": "Stock source and compiler resolved; baseline booted in QEMU; 37 sampled vendor GKI CRCs match. Container ABI validation has failures; no hardware validation."
 }

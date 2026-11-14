@@ -1,0 +1,53 @@
+struct ipc_namespace {
+	struct ipc_ids             ids[3];               /*     0   792 */
+	/* --- cacheline 12 boundary (768 bytes) was 24 bytes ago --- */
+	int                        sem_ctls[4];          /*   792    16 */
+	int                        used_sems;            /*   808     4 */
+	unsigned int               msg_ctlmax;           /*   812     4 */
+	unsigned int               msg_ctlmnb;           /*   816     4 */
+	unsigned int               msg_ctlmni;           /*   820     4 */
+	struct percpu_counter      percpu_msg_bytes;     /*   824    40 */
+
+	/* XXX last struct has 1 hole */
+
+	/* --- cacheline 13 boundary (832 bytes) was 32 bytes ago --- */
+	struct percpu_counter      percpu_msg_hdrs;      /*   864    40 */
+
+	/* XXX last struct has 1 hole */
+
+	/* --- cacheline 14 boundary (896 bytes) was 8 bytes ago --- */
+	size_t                     shm_ctlmax;           /*   904     8 */
+	size_t                     shm_ctlall;           /*   912     8 */
+	unsigned long              shm_tot;              /*   920     8 */
+	int                        shm_ctlmni;           /*   928     4 */
+	int                        shm_rmid_forced;      /*   932     4 */
+	struct notifier_block      ipcns_nb;             /*   936    24 */
+
+	/* XXX last struct has 4 bytes of padding */
+
+	/* --- cacheline 15 boundary (960 bytes) --- */
+	struct vfsmount *          mq_mnt;               /*   960     8 */
+	unsigned int               mq_queues_count;      /*   968     4 */
+	unsigned int               mq_queues_max;        /*   972     4 */
+	unsigned int               mq_msg_max;           /*   976     4 */
+	unsigned int               mq_msgsize_max;       /*   980     4 */
+	unsigned int               mq_msg_default;       /*   984     4 */
+	unsigned int               mq_msgsize_default;   /*   988     4 */
+	struct ctl_table_set       mq_set;               /*   992   104 */
+	/* --- cacheline 17 boundary (1088 bytes) was 8 bytes ago --- */
+	struct ctl_table_header *  mq_sysctls;           /*  1096     8 */
+	struct ctl_table_set       ipc_set;              /*  1104   104 */
+	/* --- cacheline 18 boundary (1152 bytes) was 56 bytes ago --- */
+	struct ctl_table_header *  ipc_sysctls;          /*  1208     8 */
+	/* --- cacheline 19 boundary (1216 bytes) --- */
+	struct user_namespace *    user_ns;              /*  1216     8 */
+	struct ucounts *           ucounts;              /*  1224     8 */
+	struct llist_node          mnt_llist;            /*  1232     8 */
+	struct ns_common           ns;                   /*  1240    24 */
+
+	/* size: 1264, cachelines: 20, members: 29 */
+	/* member types with holes: 2, total: 2 */
+	/* paddings: 1, sum paddings: 4 */
+	/* last cacheline: 48 bytes */
+};
+

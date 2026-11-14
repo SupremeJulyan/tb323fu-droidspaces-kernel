@@ -1,0 +1,38 @@
+{
+  "changed_crcs": [
+    "_RNvMNtCs2T9Dodn8vEz_6kernel8seq_fileNtB2_7SeqFile11call_printf",
+    "_RNvMNtNtCs2T9Dodn8vEz_6kernel4sync4pollNtB2_9PollTable13register_wait",
+    "_RNvMs0_NtCs2T9Dodn8vEz_6kernel4pageNtB5_4Page10alloc_page",
+    "_RNvMs0_NtCs2T9Dodn8vEz_6kernel4pageNtB5_4Page13fill_zero_raw",
+    "_RNvMs0_NtCs2T9Dodn8vEz_6kernel4pageNtB5_4Page24copy_from_user_slice_raw",
+    "_RNvMs0_NtCs2T9Dodn8vEz_6kernel4pageNtB5_4Page8read_raw",
+    "_RNvMs0_NtCs2T9Dodn8vEz_6kernel4pageNtB5_4Page9write_raw",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task11normal_prio",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task11rlimit_nice",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task13rlimit_rtprio",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task13set_user_nice",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task14signal_pending",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task17pid_in_current_ns",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task22has_capability_noaudit",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task26sched_setscheduler_nocheck",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task4euid",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task6policy",
+    "_RNvMs1_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4Task7current",
+    "_RNvMs5_NtNtCs2T9Dodn8vEz_6kernel2fs4fileNtB5_25FileDescriptorReservation10fd_install",
+    "_RNvXs1_NtCs2T9Dodn8vEz_6kernel4pageNtB5_4PageNtNtNtCscKZuwGeZtqh_4core3ops4drop4Drop4drop",
+    "_RNvXs3_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4TaskNtNtB7_5types16AlwaysRefCounted7dec_ref",
+    "_RNvXs3_NtCs2T9Dodn8vEz_6kernel4taskNtB5_4TaskNtNtB7_5types16AlwaysRefCounted7inc_ref",
+    "_RNvXs7_NtCs2T9Dodn8vEz_6kernel2mmNtB5_15MmWithUserAsyncNtNtB7_5types16AlwaysRefCounted7dec_ref"
+  ],
+  "removed_symbols": [
+    "_RNvXs1N_NtCs1ltoFyQsbvC_8bindings12bindings_rawNtB6_7rb_nodeNtNtCscKZuwGeZtqh_4core7default7Default7default",
+    "_RNvXs1O_NtCs1ltoFyQsbvC_8bindings12bindings_rawNtB6_7rb_rootNtNtCscKZuwGeZtqh_4core7default7Default7default",
+    "rust_helper_from_kuid"
+  ],
+  "missing_config": [],
+  "vendor_crc_mismatches": [],
+  "unresolved_vendor_symbols": [
+    "spf_core_is_apm_ready"
+  ],
+  "hardware_tested": false
+}

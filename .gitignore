@@ -19,3 +19,7 @@ dist/
 kernel-source/
 toolchains/
 *.log
+!reports/*-qemu.log
+artifacts/
+__pycache__/
+*.pyc

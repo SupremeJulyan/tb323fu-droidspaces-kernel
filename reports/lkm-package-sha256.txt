@@ -1,0 +1,1 @@
+deeffd1f9d826a8aec689dee755eb758c0abd29635add300ae3dc8e1539dff0c  /mnt/d/projects/tb323fu-droidspaces-kernel/downloads/droidspaces-lkm-android16-6.12-arm64.zip

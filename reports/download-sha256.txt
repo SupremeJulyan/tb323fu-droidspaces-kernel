@@ -1,0 +1,5 @@
+8cfd83ae51927621a366f5ac7e377a388e544849165a2f0afb4001251f2e7d82  /root/tb323fu-build/downloads/common.tar.gz
+002f33bd1445a7b4e0b2182e780e52cc04d60c5ac2f64ba5b34b4ec9114876d6  /root/tb323fu-build/downloads/clang-r536225.tar.gz
+ca240bbab0e898adcafd3e3e78ac54ce256fc0e54dcb94ed3fe0afe004e856b9  /root/tb323fu-build/downloads/rust-1.82.0.tar.gz
+80cd7d3962a33094cba36b507e420b069a972fa6b32030520357a7327e30f349  /mnt/d/projects/tb323fu-droidspaces-kernel/downloads/bindgen
+2f296c27bcf18e67b2b243d5e8e29fe3ce73636f2f505d79f6dbb9cd0c344f91  /mnt/d/projects/tb323fu-droidspaces-kernel/downloads/pahole-source.tar.gz

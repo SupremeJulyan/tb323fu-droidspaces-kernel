@@ -1,0 +1,3 @@
+c7a2616d89bfebd870fd688658dde129f61aa9c6653f7e3a00628153e95e92a1  /root/tb323fu-build/out-container/arch/arm64/boot/Image
+527f37ff56a4f544ba09869e3ca02374347a490e60134839f882c4d0bd0a0576  /root/tb323fu-build/out-container/vmlinux
+9e7ba738c6c31dda9c923f04e86449577c939b77257b9a85934bc69606965635  /root/tb323fu-build/out-container/Module.symvers

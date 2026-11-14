@@ -1,0 +1,60 @@
+{
+  "devtmpfs_lkm-android16-6.12.ko": {
+    "vermagic": "6.12.76-4k SMP preempt mod_unload modversions aarch64",
+    "missing_exports": [],
+    "version_entry_count": 0
+  },
+  "droid_lkm_cpu-android16-6.12.ko": {
+    "vermagic": "6.12.76-4k SMP preempt mod_unload modversions aarch64",
+    "missing_exports": [
+      "cgroup_add_dfl_cftypes"
+    ],
+    "version_entry_count": 0
+  },
+  "droid_lkm_pids-android16-6.12.ko": {
+    "vermagic": "6.12.76-4k SMP preempt mod_unload modversions aarch64",
+    "missing_exports": [
+      "cgroup_add_dfl_cftypes"
+    ],
+    "version_entry_count": 0
+  },
+  "ip6table_nat-android16-6.12.ko": {
+    "vermagic": "6.12.76-4k SMP preempt mod_unload modversions aarch64",
+    "missing_exports": [],
+    "version_entry_count": 0
+  },
+  "lkm4ctr-android16-6.12.ko": {
+    "vermagic": "6.12.76-4k SMP preempt mod_unload modversions aarch64",
+    "missing_exports": [
+      "backing_file_user_path",
+      "backing_tmpfile_open",
+      "d_mark_tmpfile",
+      "fsverity_get_digest",
+      "get_inode_acl",
+      "get_next_ino",
+      "mnt_get_write_access",
+      "mnt_put_write_access"
+    ],
+    "version_entry_count": 0
+  },
+  "macvlan-android16-6.12.ko": {
+    "vermagic": "6.12.76-4k SMP preempt mod_unload modversions aarch64",
+    "missing_exports": [
+      "__dev_forward_skb",
+      "dev_forward_skb",
+      "dev_mc_add_excl",
+      "eth_header_cache",
+      "eth_header_cache_update",
+      "ip_check_defrag",
+      "ndo_dflt_fdb_dump"
+    ],
+    "version_entry_count": 0
+  },
+  "vkms-android16-6.12.ko": {
+    "vermagic": "6.12.76-4k SMP preempt mod_unload modversions aarch64",
+    "missing_exports": [
+      "drmm_crtc_init_with_planes"
+    ],
+    "version_entry_count": 0
+  }
+}
