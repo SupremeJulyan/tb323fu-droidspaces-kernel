@@ -1,0 +1,11 @@
+{
+  "kernel_repository": "https://android.googlesource.com/kernel/common",
+  "kernel_commit": "1750f757fabea014ecc59d327c0c9d3c15ab1e6d",
+  "kernel_release": "6.12.30-android16-5-g1750f757fabe-ab13938768-4k",
+  "page_size": 4096,
+  "clang_revision": "r536225",
+  "clang_build": "12833971",
+  "clang_version": "19.0.1",
+  "clang_llvm_commit": "b3a530ec6537146650e42be89f1089e9a3588460",
+  "status": "Source commit resolved; build manifest, toolchain archive and module ABI validation pending"
+}
