@@ -1,0 +1,21 @@
+# Device dumps, user data, credentials and build output
+*.img
+*.bin
+*.elf
+*.mbn
+*.apk
+*.ko
+*.pem
+*.key
+*.p12
+.env
+.env.*
+backup/
+backups/
+private/
+downloads/
+out/
+dist/
+kernel-source/
+toolchains/
+*.log
